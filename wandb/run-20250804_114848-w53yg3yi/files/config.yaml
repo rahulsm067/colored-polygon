@@ -1,0 +1,37 @@
+_wandb:
+    value:
+        cli_version: 0.21.0
+        e:
+            n9mf0cmi3a4gogx6w5xxz2b3brzsqfkl:
+                codePath: Downloads\ML_ASSIGNMENT_AYNA\train.py
+                codePathLocal: train.py
+                cpu_count: 4
+                cpu_count_logical: 8
+                disk:
+                    /:
+                        total: "509722226688"
+                        used: "291365220352"
+                email: rahulsm067@gmail.com
+                executable: C:\Python313\python.exe
+                host: LenovoIdeaPad
+                memory:
+                    total: "16952647680"
+                os: Windows-11-10.0.26100-SP0
+                program: C:\Users\visha\Downloads\ML_ASSIGNMENT_AYNA\train.py
+                python: CPython 3.13.4
+                root: C:\Users\visha\Downloads\ML_ASSIGNMENT_AYNA
+                startedAt: "2025-08-04T06:18:48.423200Z"
+                writerId: n9mf0cmi3a4gogx6w5xxz2b3brzsqfkl
+        m: []
+        python_version: 3.13.4
+        t:
+            "1":
+                - 1
+            "2":
+                - 1
+            "4": 3.13.4
+            "5": 0.21.0
+            "8":
+                - 3
+            "12": 0.21.0
+            "13": windows-amd64

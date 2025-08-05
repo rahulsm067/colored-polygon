@@ -1,0 +1,58 @@
+Epoch 1 - Train Loss: 1.2356, Val Loss: 1.0483
+Epoch 2 - Train Loss: 0.7180, Val Loss: 1.1814
+Epoch 3 - Train Loss: 0.4838, Val Loss: 2.0549
+Epoch 4 - Train Loss: 0.3735, Val Loss: 1.1499
+Epoch 5 - Train Loss: 0.2527, Val Loss: 0.8039
+Epoch 6 - Train Loss: 0.1817, Val Loss: 0.2812
+Epoch 7 - Train Loss: 0.1303, Val Loss: 0.2098
+Traceback (most recent call last):
+  File "C:\Users\visha\Downloads\ML_ASSIGNMENT_AYNA\train.py", line 54, in <module>
+    train_loss = train_one_epoch()
+  File "C:\Users\visha\Downloads\ML_ASSIGNMENT_AYNA\train.py", line 33, in train_one_epoch
+    out = model(x)
+  File "C:\Users\visha\AppData\Roaming\Python\Python313\site-packages\torch\nn\modules\module.py", line 1751, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\visha\AppData\Roaming\Python\Python313\site-packages\torch\nn\modules\module.py", line 1762, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "C:\Users\visha\Downloads\ML_ASSIGNMENT_AYNA\unet_model.py", line 64, in forward
+    x = self.up1(x5, x4)
+  File "C:\Users\visha\AppData\Roaming\Python\Python313\site-packages\torch\nn\modules\module.py", line 1751, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\visha\AppData\Roaming\Python\Python313\site-packages\torch\nn\modules\module.py", line 1762, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "C:\Users\visha\Downloads\ML_ASSIGNMENT_AYNA\unet_model.py", line 42, in forward
+    return self.conv(x)
+           ~~~~~~~~~^^^
+  File "C:\Users\visha\AppData\Roaming\Python\Python313\site-packages\torch\nn\modules\module.py", line 1751, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\visha\AppData\Roaming\Python\Python313\site-packages\torch\nn\modules\module.py", line 1762, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "C:\Users\visha\Downloads\ML_ASSIGNMENT_AYNA\unet_model.py", line 18, in forward
+    return self.conv(x)
+           ~~~~~~~~~^^^
+  File "C:\Users\visha\AppData\Roaming\Python\Python313\site-packages\torch\nn\modules\module.py", line 1751, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\visha\AppData\Roaming\Python\Python313\site-packages\torch\nn\modules\module.py", line 1762, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "C:\Users\visha\AppData\Roaming\Python\Python313\site-packages\torch\nn\modules\container.py", line 240, in forward
+    input = module(input)
+  File "C:\Users\visha\AppData\Roaming\Python\Python313\site-packages\torch\nn\modules\module.py", line 1751, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\visha\AppData\Roaming\Python\Python313\site-packages\torch\nn\modules\module.py", line 1762, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "C:\Users\visha\AppData\Roaming\Python\Python313\site-packages\torch\nn\modules\conv.py", line 554, in forward
+    return self._conv_forward(input, self.weight, self.bias)
+           ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\visha\AppData\Roaming\Python\Python313\site-packages\torch\nn\modules\conv.py", line 549, in _conv_forward
+    return F.conv2d(
+           ~~~~~~~~^
+        input, weight, bias, self.stride, self.padding, self.dilation, self.groups
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+KeyboardInterrupt

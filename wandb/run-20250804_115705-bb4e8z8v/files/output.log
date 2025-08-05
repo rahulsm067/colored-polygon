@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "C:\Users\visha\Downloads\ML_ASSIGNMENT_AYNA\train.py", line 21, in <module>
+    train_dataset = PolygonDataset(os.path.join(data_dir, "train"))
+  File "C:\Users\visha\Downloads\ML_ASSIGNMENT_AYNA\dataset.py", line 36, in __init__
+    raise FileNotFoundError(f"data.json not found in {data_dir}")
+FileNotFoundError: data.json not found in data\train

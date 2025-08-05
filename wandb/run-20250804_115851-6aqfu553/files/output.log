@@ -1,0 +1,29 @@
+Epoch 1 - Train Loss: 0.8512, Val Loss: 0.9614
+Traceback (most recent call last):
+  File "C:\Users\visha\Downloads\ML_ASSIGNMENT_AYNA\train.py", line 62, in <module>
+    wandb.save("best_unet.pth")
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\visha\AppData\Roaming\Python\Python313\site-packages\wandb\sdk\wandb_run.py", line 398, in wrapper
+    return func(self, *args, **kwargs)
+  File "C:\Users\visha\AppData\Roaming\Python\Python313\site-packages\wandb\sdk\wandb_run.py", line 456, in wrapper_fn
+    return func(self, *args, **kwargs)
+  File "C:\Users\visha\AppData\Roaming\Python\Python313\site-packages\wandb\sdk\wandb_run.py", line 443, in wrapper
+    return func(self, *args, **kwargs)
+  File "C:\Users\visha\AppData\Roaming\Python\Python313\site-packages\wandb\sdk\wandb_run.py", line 2079, in save
+    return self._save(
+           ~~~~~~~~~~^
+        resolved_glob_path,
+        ^^^^^^^^^^^^^^^^^^^
+        resolved_base_path,
+        ^^^^^^^^^^^^^^^^^^^
+        policy,
+        ^^^^^^^
+    )
+    ^
+  File "C:\Users\visha\AppData\Roaming\Python\Python313\site-packages\wandb\sdk\wandb_run.py", line 2138, in _save
+    target_path.symlink_to(source_path)
+    ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Python313\Lib\pathlib\_local.py", line 789, in symlink_to
+    os.symlink(target, self, target_is_directory)
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+OSError: [WinError 1314] A required privilege is not held by the client: 'C:\\Users\\visha\\Downloads\\ML_ASSIGNMENT_AYNA\\best_unet.pth' -> 'C:\\Users\\visha\\Downloads\\ML_ASSIGNMENT_AYNA\\wandb\\run-20250804_115851-6aqfu553\\files\\best_unet.pth'
