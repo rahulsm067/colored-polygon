@@ -25,9 +25,9 @@ Follow this link to know the working process.
 ## Installation
 
 1. Clone this repository:
-    '''
+    
 git clone https://github.com/rahulsm067/colored-polygon.git
-    ```
+    
  2. Install dependencies (if any):
     ```bash
 pip install -r requirements.txt
