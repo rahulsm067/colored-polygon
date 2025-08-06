@@ -25,14 +25,14 @@ Follow this link to know the working process.
 ## Installation
 
 1. Clone this repository:
-    ```bash
+    '''
 git clone https://github.com/rahulsm067/colored-polygon.git
     ```
-## 2. Install dependencies (if any):
+ 2. Install dependencies (if any):
     ```bash
 pip install -r requirements.txt
     ```
-## 3. Open the Jupyter Notebooks:
+ 3. Open the Jupyter Notebooks:
     ```bash
 jupyter notebook
     ```
