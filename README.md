@@ -48,6 +48,4 @@ jupyter notebook
 Feel free to fork the repository, make changes, and submit pull requests.  
 For major changes, please open an issue first to discuss what you would like to change.
 
-## License
 
-This project is open source. See the [LICENSE](LICENSE) file for details.
